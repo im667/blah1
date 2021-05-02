@@ -9,10 +9,8 @@ function hexnum() {
         let result = '#'
         const hex = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
         for(let i=0; i<6; i++){
-            
             let random = Math.floor(Math.random() * hex.length);
             result = result + hex[random];
-            
         }
         return result;
         }
@@ -25,14 +23,3 @@ function hexnum() {
 
 
 
-
-/*function number(){
-const hex = [1, 2, 3, 4, 5, 6, 7, 8, 9, "A", "B", "C", "D", "E", "F"];
-for(let i=0; i<6; i++){
-    let result = '#'
-    let random = Math.floor(Math.random() * hex.length);
-    result = result + hex[random];
-}
-return result;
-}
-*/
